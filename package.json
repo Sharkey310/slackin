@@ -59,7 +59,7 @@
         "test": "mocha && eslint lib/**",
         "postinstall": "gulp",
         "build": "gulp",
-        "start": "chmod +x bin/slackin && ./bin/slackin"
+        "start": "chmod +x bin/slackin && node index.js"
     },
     "now": {
         "type": "npm",
